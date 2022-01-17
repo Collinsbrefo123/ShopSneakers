@@ -1,0 +1,257 @@
+$grey : rgb(73, 73, 77);
+$text : white;
+// Fonts Styles imported locally
+@font-face {
+  font-family: 'Bauhaus';
+  src: url('../../../assets/fonts/bauhaus/BauhausBold.ttf');
+}
+@font-face {
+  font-family: 'Bauhaus-93';
+  src: url('../../../assets/fonts/bauhaus-93/BAUHS93.ttf');
+}
+@font-face {
+  font-family: 'Lobster';
+  src: url('../../../assets/fonts/lobster/Lobster-Regular.ttf');
+}
+//Navbar
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+// First Page
+// .hm_bg{
+//   height: 100%;
+//   background-image: url("../../../assets/img/01.png");
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-position: 70% 40%;
+
+// }
+// .sidenav{
+// padding-top: 5%;
+// }
+// .sidenav ul{
+// list-style-type: none;
+// padding-left: 5%;
+// font-family: Arial, Helvetica, sans-serif
+// }
+// .sidenav ul li{
+//   padding-top: 15%;
+// }
+
+// .heading{
+//   font-size: 130px;
+//   font-family: 'lobster';
+// }
+// .heading span{
+//   font-size: 135px;
+//  font-family: 'Bauhaus-93';
+//  font-weight: bolder;
+// }
+
+// .img_sneaker{
+//   padding-top: 3%;
+//   height: 100%;
+// }
+// .sidebar{
+//   writing-mode: vertical-rl;
+//   text-orientation: upright;
+//   font-size: 10px;
+
+// }
+// .sidebar ul{
+//   list-style-type: none;
+// }
+// .sidebar ul li{
+//   display: inline;
+//   padding-top: 10%
+// }
+// .Same{
+//   display:inline-block;
+// }
+// .side_footer{
+//   padding-top: 15%;
+//   font-size: 35px;
+//   line-height: 1;
+// }
+
+// .color_foot{
+// padding-top: 8%;
+// background-color: black;
+// color:white;
+// padding-right: 2px;
+// margin-right: 8px;
+
+// }
+// .line{
+//   width: 20%;
+//   height: 20%;
+//   border-bottom: 1px solid black;
+//   position: absolute;
+//   }
+// .icon_scroll{
+//   font-size: 50px;
+//   color: #8888;
+// }
+//sides
+.sides_left{
+  position: fixed;
+  top:16%;
+  padding-left: 0.5%;
+}
+
+.sides_left ul li{
+  padding-bottom: 24px;
+}
+
+.sides_right{
+  position: fixed;
+}
+
+
+
+// First Page
+.hm_bg{
+  height: 100%;
+  background-image: url("../../../assets/img/01.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 70% 40%;
+
+}
+.sidenav{
+padding-top: 5%;
+}
+.sidenav ul{
+list-style-type: none;
+padding-left: 5%;
+font-family: Arial, Helvetica, sans-serif
+}
+.sidenav ul li{
+  padding-top: 15%;
+}
+
+.heading{
+  font-size: 130px;
+  font-family: 'lobster';
+}
+.heading span{
+  font-size: 135px;
+ font-family: 'Bauhaus-93';
+ font-weight: bolder;
+}
+
+.img_sneaker{
+  padding-top: 3%;
+  height: 100%;
+}
+.sidebar{
+  top: 10%;
+  padding-left: 98%;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 10px;
+  position: fixed;
+
+}
+.sidebar ul{
+  list-style-type: none;
+}
+.sidebar ul li{
+  display: inline;
+  padding-bottom: 20%;
+}
+.Same{
+  display:inline-block;
+}
+.side_footer{
+  padding-top: 15%;
+  font-size: 35px;
+  line-height: 1;
+}
+
+.color_foot{
+padding-top: 17%;
+background-color: black;
+color:$text;
+padding-right: 2px;
+margin-right: 8px;
+
+}
+.line{
+  width: 50%;
+  height: 20%;
+  border-bottom: 1px solid black;
+  position: absolute;
+  }
+
+//second page
+.hm_bg2{
+  height: 100%;
+  background-image: url("../../../assets/img/02.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 70% 40%;
+
+}
+.img_sneaker2{
+  padding-top: 20%;
+  padding-right: 5%;
+  height: 80%;
+}
+//third page
+.hm_bg3{
+  height: 100%;
+  background-image: url("../../../assets/img/03.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 70% 40%;
+}
+.img_sneaker3{
+  padding-top: 25%;
+  padding-right: 5%;
+  height: 120%;
+}
+//Fourth page
+.hm_bg4{
+  height: 100%;
+  background-image: url("../../../assets/img/04.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 70% 40%;
+}
+.img_sneaker4{
+  padding-top: 25%;
+  padding-right: 5%;
+  height: 120%;
+}
+
+#nightMode{
+  transition: background-color 1.0s ease, color 1.0s ease;
+}
+.light{
+  background-color: $grey;
+  height: 100%;
+  $white : blue;
+}
+
+body div{
+  background-color: green;
+}
